@@ -2,3 +2,21 @@
 .metals/
 *.class
 **/target
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+.uv/
+
+# Runtime data
+data/stunnel.db
+data/stunnel.db-shm
+data/stunnel.db-wal
+data/parquet/
+logs/
+
+# Env
+.env
